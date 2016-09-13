@@ -1,0 +1,30 @@
+
+body{
+
+}
+header{
+	width:626px;
+	height:261px;
+	align-content: center;
+	margin: 0 auto;
+}
+.textmain {
+	color: #898989;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #898989;
+}
+a:visited {
+	color: #898989;
+}
+a:hover {
+	color: #898989;
+}
+a:active {
+	color: #898989;
+}
+div#branchl {
+  text-align:center;
+  width:100%;
+}
