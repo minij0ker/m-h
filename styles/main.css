@@ -1,30 +1,31 @@
 
 body{
-
+	backgroud-color:#e5e5e5;
+	color: #777;
+	font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 header{
-	width:626px;
-	height:261px;
-	align-content: center;
 	margin: 0 auto;
+	height: 120px;
+	position: fixed;
+	width: 100%;
+	background:#fff;
 }
-.textmain {
-	color: #898989;
-	font-family: Arial, Helvetica, sans-serif;
+.wrapper{
+	border:1px solid;
+	width:80%;
+	height:100px;
+	align: center;
 }
-a:link {
-	color: #898989;
+img{
+	display: block;
+	margin: 0 auto;
+	max-width:100%;
+	max-height:100%;
+
 }
-a:visited {
-	color: #898989;
+.tag{
+	margin-top:37px;
 }
-a:hover {
-	color: #898989;
-}
-a:active {
-	color: #898989;
-}
-div#branchl {
-  text-align:center;
-  width:100%;
-}
+
+
