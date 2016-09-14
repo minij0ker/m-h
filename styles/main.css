@@ -1,21 +1,27 @@
 
 body{
-	backgroud-color:#e5e5e5;
+	background-color:#fff;
 	color: #777;
 	font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 header{
-	margin: 0 auto;
+	
 	height: 120px;
 	position: fixed;
 	width: 100%;
+	top:0px;
 	background:#fff;
+	opacity: 0.8;
+
 }
 .wrapper{
-	border:1px solid;
+	display: block;
+	margin: 0 auto;
+
 	width:80%;
 	height:100px;
 	align: center;
+
 }
 img{
 	display: block;
@@ -25,7 +31,16 @@ img{
 
 }
 .tag{
-	margin-top:37px;
+	display: block;
+	margin: 0 auto;
+	margin-top:80px;
+	width:40%;
+}
+#hero-image {
+	margin-top:19px;
+	height: 580px;
+	padding-top: 1px;
+	background: #e8eced url('../images/hero.jpg') no-repeat center;
 }
 
 
